@@ -15,7 +15,7 @@ A typical usecase will be extending a serializer with AttrStatements in order to
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'attr_statements', '~> 0.1.0'
+gem 'attr_statements', '~> 0.1.1'
 ```
 
 And then execute:
