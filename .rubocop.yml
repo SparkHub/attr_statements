@@ -22,3 +22,11 @@ Metrics/BlockLength:
 
 Style/Documentation:
   Enabled: false
+
+# fix for codeclimate
+Style/PercentLiteralDelimiters:
+  PreferredDelimiters:
+    default: ()
+    '%i': '[]'
+    '%w': '[]'
+    '%W': '[]'
