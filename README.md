@@ -110,7 +110,7 @@ Class User < ActiveRecord::Base
     if profile_attributes && !profile_attributes.valid?
       # merge child errors with parent errors
       profile_attributes.errors.each do |k, v|
-        errors.add("attribute_statement_#{k}", v)
+        errors.add("profile_attribute_#{k}", v)
       end
     end
   end
