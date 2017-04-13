@@ -1,3 +1,4 @@
+require 'active_support/core_ext/module/delegation'
 require 'active_model/naming'
 require 'active_model/translation'
 require 'active_model/errors'

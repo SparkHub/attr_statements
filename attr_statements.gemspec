@@ -27,12 +27,7 @@ Gem::Specification.new do |spec|
   else
     spec.add_dependency 'activesupport', '< 5'
   end
-
-  if RUBY_VERSION >= '2.2.0'
-    spec.add_dependency 'activemodel', '>= 4'
-  else
-    spec.add_dependency 'activemodel', '< 4.0'
-  end
+  spec.add_dependency 'activemodel', '>= 4'
 
   spec.add_development_dependency 'bundler', '~> 1.14'
   spec.add_development_dependency 'rake',    '~> 12.0'
