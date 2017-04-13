@@ -1,0 +1,19 @@
+---
+TooManyStatements:
+  enabled: true
+  max_statements: 10
+
+Attribute:
+  exclude:
+    - TrackerHub::Request::Config
+
+# Directories below will not be scanned at all
+exclude_paths:
+  - spec
+
+IrresponsibleModule:
+  enabled: false
+
+DuplicateMethodCall:
+  allow_calls:
+  - 'self.class'
